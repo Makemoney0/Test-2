@@ -1,0 +1,19 @@
+{
+  "name": "restaurant-voice-agent-de",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "migrate": "node scripts/init_db.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "twilio": "^4.11.0",
+    "better-sqlite3": "^8.1.0",
+    "axios": "^1.5.0",
+    "uuid": "^9.0.0",
+    "dotenv": "^16.1.4"
+  }
+}

@@ -1,0 +1,15 @@
+intent,utterance,slots
+reserve_table,Ich möchte einen Tisch für {party_size} Personen am {date} um {time},party_size=2;date=2025-11-05;time=19:00
+reserve_table,Reservieren für {name} morgen Abend um {time},name=Müller;time=19:00
+reserve_table,Haben Sie heute um 18 Uhr noch einen Tisch für {party_size}?,party_size=2
+reserve_table,Ich brauche einen Tisch für 4 am Samstag,name=Schmidt;party_size=4;date=2025-11-08
+order_takeaway,Ich möchte bestellen: 1x Margherita und 2x Pommes,items=Margherita:1,Pommes:2
+order_takeaway,Ich hole um {pickup_time} ab,pickup_time=18:30
+ask_menu,Habt ihr vegane Gerichte?,category=vegan
+ask_menu,Gibt es glutenfreie Pizza?,allergen=gluten
+ask_hours_location,Wie sind die Öffnungszeiten?,info_type=hours
+ask_hours_location,Wo befindet sich das Restaurant?,info_type=address
+change_cancel,Ich möchte meine Reservierung stornieren,reservation_id=abcd1234
+change_cancel,Können wir unsere Reservierung auf 20 Uhr verschieben?,time=20:00
+feedback,Die Bedienung war super,5 Sterne,rating=5;comment=Die Bedienung war super
+fallback,Ich möchte mit jemandem sprechen,
